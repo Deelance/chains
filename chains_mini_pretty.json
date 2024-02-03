@@ -11501,7 +11501,7 @@
     "decimals": 18
   },
   "rpc": ["https://rpc.deelance.com"],
-  "faucets": ["https://faucet.deelance.com"],
+  "faucets": [],
   "infoURL": "https://deelance.com"
 }, {
   "name": "Fusion Testnet",

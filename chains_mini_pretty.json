@@ -2742,6 +2742,19 @@
   "faucets": [],
   "infoURL": "https://www.neurochain.ai"
 }, {
+  "name": "ZKSats Mainnet",
+  "chainId": 305,
+  "shortName": "ZKSats-Mainnet",
+  "networkId": 305,
+  "nativeCurrency": {
+    "name": "BTC",
+    "symbol": "BTC",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet.zksats.io"],
+  "faucets": [],
+  "infoURL": "https://zksats.io"
+}, {
   "name": "Lovely Network Testnet",
   "chainId": 307,
   "shortName": "LOVELY-Testnet",
@@ -6447,6 +6460,19 @@
   "faucets": ["https://ttaycan-faucet.hupayx.io/"],
   "infoURL": "https://hupayx.io"
 }, {
+  "name": "Swan Saturn Testnet",
+  "chainId": 2024,
+  "shortName": "swan",
+  "networkId": 2024,
+  "nativeCurrency": {
+    "name": "SWANETH",
+    "symbol": "SWAN",
+    "decimals": 18
+  },
+  "rpc": ["https://saturn-rpc.swanchain.io"],
+  "faucets": [],
+  "infoURL": "https://swanchain.io/"
+}, {
   "name": "Rangers Protocol Mainnet",
   "chainId": 2025,
   "shortName": "rpg",
@@ -8055,7 +8081,7 @@
     "symbol": "BEAM",
     "decimals": 18
   },
-  "rpc": ["https://subnets.avax.network/beam/mainnet/rpc", "wss://subnets.avax.network/beam/mainnet/ws"],
+  "rpc": ["https://build.onbeam.com/rpc", "wss://build.onbeam.com/ws", "https://subnets.avax.network/beam/mainnet/rpc", "wss://subnets.avax.network/beam/mainnet/ws"],
   "faucets": ["https://faucet.onbeam.com"],
   "infoURL": "https://www.onbeam.com"
 }, {
@@ -10577,7 +10603,7 @@
     "symbol": "BEAM",
     "decimals": 18
   },
-  "rpc": ["https://subnets.avax.network/beam/testnet/rpc", "wss://subnets.avax.network/beam/testnet/ws"],
+  "rpc": ["https://build.onbeam.com/rpc/testnet", "wss://build.onbeam.com/ws/testnet", "https://subnets.avax.network/beam/testnet/rpc", "wss://subnets.avax.network/beam/testnet/ws"],
   "faucets": ["https://faucet.avax.network/?subnet=beam", "https://faucet.onbeam.com"],
   "infoURL": "https://www.onbeam.com"
 }, {
@@ -10918,6 +10944,19 @@
   "rpc": ["https://testnet-rpc.oneg8.network"],
   "faucets": ["https://faucet.oneg8.network"],
   "infoURL": "https://oneg8.one"
+}, {
+  "name": "unreal",
+  "chainId": 18231,
+  "shortName": "unreal",
+  "networkId": 18231,
+  "nativeCurrency": {
+    "name": "unreal Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.unreal.gelato.digital", "wss://ws.unreal.gelato.digital"],
+  "faucets": [],
+  "infoURL": "https://raas.gelato.network/rollups/details/public/unreal"
 }, {
   "name": "MXC zkEVM Mainnet",
   "chainId": 18686,
@@ -13671,7 +13710,7 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://rpc.katla.taiko.xyz"],
+  "rpc": ["https://rpc.katla.taiko.xyz", "wss://rpc.katla.taiko.xyz"],
   "faucets": [],
   "infoURL": "https://taiko.xyz"
 }, {

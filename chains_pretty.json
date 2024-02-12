@@ -4312,6 +4312,28 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "ZKSats Mainnet",
+  "title": "ZKSats Mainnet",
+  "chain": "ZKSats",
+  "rpc": ["https://mainnet.zksats.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "BTC",
+    "symbol": "BTC",
+    "decimals": 18
+  },
+  "infoURL": "https://zksats.io",
+  "shortName": "ZKSats-Mainnet",
+  "chainId": 305,
+  "networkId": 305,
+  "icon": "zksats",
+  "explorers": [{
+    "name": "blockscout",
+    "url": "https://explorer.zksats.io",
+    "icon": "zksats",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Lovely Network Testnet",
   "chain": "Lovely",
   "icon": "lovely",
@@ -10218,6 +10240,20 @@
     "icon": "shuffle"
   }]
 }, {
+  "name": "Swan Saturn Testnet",
+  "chain": "SWAN",
+  "rpc": ["https://saturn-rpc.swanchain.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "SWANETH",
+    "symbol": "SWAN",
+    "decimals": 18
+  },
+  "infoURL": "https://swanchain.io/",
+  "shortName": "swan",
+  "chainId": 2024,
+  "networkId": 2024
+}, {
   "name": "Rangers Protocol Mainnet",
   "chain": "Rangers",
   "icon": "rangers",
@@ -12783,7 +12819,7 @@
 }, {
   "name": "Beam",
   "chain": "BEAM",
-  "rpc": ["https://subnets.avax.network/beam/mainnet/rpc", "wss://subnets.avax.network/beam/mainnet/ws"],
+  "rpc": ["https://build.onbeam.com/rpc", "wss://build.onbeam.com/ws", "https://subnets.avax.network/beam/mainnet/rpc", "wss://subnets.avax.network/beam/mainnet/ws"],
   "features": [{
     "name": "EIP1559"
   }],
@@ -16801,7 +16837,7 @@
 }, {
   "name": "Beam Testnet",
   "chain": "BEAM",
-  "rpc": ["https://subnets.avax.network/beam/testnet/rpc", "wss://subnets.avax.network/beam/testnet/ws"],
+  "rpc": ["https://build.onbeam.com/rpc/testnet", "wss://build.onbeam.com/ws/testnet", "https://subnets.avax.network/beam/testnet/rpc", "wss://subnets.avax.network/beam/testnet/ws"],
   "features": [{
     "name": "EIP1559"
   }],
@@ -17379,6 +17415,36 @@
     "url": "https://testnet.oneg8.network",
     "standard": "EIP3091"
   }]
+}, {
+  "name": "unreal",
+  "title": "unreal testnet for re.al",
+  "chain": "unreal",
+  "rpc": ["https://rpc.unreal.gelato.digital", "wss://ws.unreal.gelato.digital"],
+  "nativeCurrency": {
+    "name": "unreal Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://raas.gelato.network/rollups/details/public/unreal",
+  "faucets": [],
+  "shortName": "unreal",
+  "chainId": 18231,
+  "networkId": 18231,
+  "slip44": 60,
+  "icon": "unreal",
+  "explorers": [{
+    "name": "blockscout",
+    "url": "https://unreal.blockscout.com",
+    "icon": "unreal",
+    "standard": "EIP3091"
+  }],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-11155111",
+    "bridges": [{
+      "url": "https://bridge.unreal.gelato.digital"
+    }]
+  }
 }, {
   "name": "MXC zkEVM Mainnet",
   "chain": "MXC zkEVM",
@@ -21818,7 +21884,7 @@
   "chain": "ETH",
   "status": "active",
   "icon": "taiko",
-  "rpc": ["https://rpc.katla.taiko.xyz"],
+  "rpc": ["https://rpc.katla.taiko.xyz", "wss://rpc.katla.taiko.xyz"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
